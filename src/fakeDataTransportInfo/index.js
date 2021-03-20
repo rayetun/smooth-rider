@@ -1,6 +1,6 @@
-import allHotel from './allHotel';
+import allVeh from './allVeh';
 
-const fakeData = [...allHotel];
+const fakeData = [...allVeh];
 
 const shuffle = a => {
     for (let i = a.length; i; i--) {
