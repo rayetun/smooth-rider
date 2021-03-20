@@ -1,0 +1,8 @@
+.transport-info h5,.rating h6{
+    font-weight: bold;
+    font-size: 17px;
+}
+.transport-info p{
+    font-size: 15px;
+    color: gray;
+}
