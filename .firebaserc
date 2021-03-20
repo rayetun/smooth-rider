@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "travel-guru-sep-2020"
+    "default": "travel-guru-sep-2020",
+    "build": "smooth-rider",
+    "production": "smooth-rider"
   }
 }
