@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Container, Row } from 'react-bootstrap';
-import bgImage from '../../images/coxBazarRec.png';
+import bgImage from '../../images/hero-bg.jpg';
 import Header from '../Header/Header';
 import './Home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

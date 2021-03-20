@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import './HotelDetails.css';
+import './TransportDetails.css';
 
 const HotelDetails = (props) => {
-    const { hotelId, img, vehName, price,} = props.hotelDetails;
+    const { VId, img, vehName, price,} = props.vehDetails;
     
     return (
         <div className="my-5 d-flex justify-content-between align-items-center">

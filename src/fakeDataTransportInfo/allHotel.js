@@ -1,7 +1,7 @@
-var allHotel =
+var allVeh =
   [
     {
-      "hotelId": 1,
+      "VId": 1,
       "key":"1",
       "transportName":"Car",
       "vehName": "Smooth X",
@@ -9,7 +9,7 @@ var allHotel =
       "img": "https://i.ibb.co/p4wLHnD/car.png"
     },
     {
-      "hotelId": 2,
+      "VId": 2,
       "key":"2",
       "transportName":"Bike",
       "vehName": "Smooth Relax",
@@ -17,7 +17,7 @@ var allHotel =
       "img": "https://i.ibb.co/tYbMDXk/bike.png"
     },
     {
-      "hotelId": 3,
+      "VId": 3,
       "key":"3",
       "transportName":"Train",
       "vehName": "Smooth Express",
@@ -25,7 +25,7 @@ var allHotel =
       "img": "https://i.ibb.co/dgrX2kT/train.png"
     },
     {
-      "hotelId": 0, 
+      "VId": 0, 
       "key":"4",
       "transportName":"Bus",
       "vehName": "Smooth Green",
@@ -33,7 +33,7 @@ var allHotel =
       "img": "https://i.ibb.co/1MNtB8d/bus.png"
     },
     {
-      "hotelId": 1,
+      "VId": 1,
       "key":"5",
       "transportName":"Car",
       "vehName": "Smooth X2",
@@ -41,7 +41,7 @@ var allHotel =
       "img": "https://i.ibb.co/p4wLHnD/car.png"
     },
     {
-      "hotelId": 2,
+      "VId": 2,
       "key":"6",
       "transportName":"Bike",
       "vehName": "Smooth Relax2",
@@ -49,7 +49,7 @@ var allHotel =
       "img": "https://i.ibb.co/tYbMDXk/bike.png"
     },
     {
-      "hotelId": 3,
+      "VId": 3,
       "key":"7",
       "transportName":"Train",
       "vehName": "Smooth Express2",
@@ -57,7 +57,7 @@ var allHotel =
       "img": "https://i.ibb.co/dgrX2kT/train.png"
     },
     {
-      "hotelId": 0, 
+      "VId": 0, 
       "key":"8",
       "transportName":"Bus",
       "vehName": "Smooth Green2",
@@ -65,7 +65,7 @@ var allHotel =
       "img": "https://i.ibb.co/1MNtB8d/bus.png"
     },
     {
-      "hotelId": 1,
+      "VId": 1,
       "key":"9",
       "transportName":"Car",
       "vehName": "Smooth X3",
@@ -73,7 +73,7 @@ var allHotel =
       "img": "https://i.ibb.co/p4wLHnD/car.png"
     },
     {
-      "hotelId": 2,
+      "VId": 2,
       "key":"10",
       "transportName":"Bike",
       "vehName": "Smooth Relax3",
@@ -81,7 +81,7 @@ var allHotel =
       "img": "https://i.ibb.co/tYbMDXk/bike.png"
     },
     {
-      "hotelId": 3,
+      "VId": 3,
       "key":"11",
       "transportName":"Train",
       "vehName": "Smooth Express3",
@@ -89,7 +89,7 @@ var allHotel =
       "img": "https://i.ibb.co/dgrX2kT/train.png"
     },
     {
-      "hotelId": 0, 
+      "VId": 0, 
       "key":"12",
       "transportName":"Bus",
       "vehName": "Smooth Green3",
@@ -98,4 +98,4 @@ var allHotel =
     }
   ];
 
-export default allHotel;
+export default allVeh;

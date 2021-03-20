@@ -1,17 +1,17 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
-import fakeDataHotel from '../../fakeDataHotel';
+import fakeDataVeh from '../../fakeDataTransportInfo';
 import { useParams } from 'react-router-dom';
-import HotelDetails from '../HotelDetails/HotelDetails';
+import TransportDetails from '../TransportDetails/TransportDetails';
 import { UserContext } from '../../App';
 import GoogleMap from '../GoogleMap/GoogleMap';
 
 const HotelPage = () => {
-    const hotels = fakeDataHotel;
+    const transports = fakeDataVeh;
 
     const { id } = useParams();
-    const filteredHotel = fakeDataHotel.filter(hotel => parseInt(hotel.hotelId) === parseInt(id));
+    const filteredVeh = transports.filter(transport => parseInt(transport.VId) === parseInt(id));
 
 
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -23,7 +23,7 @@ const HotelPage = () => {
                     <div className="col-md-4">
                         <h5 className="font-weight-bold">Travel With</h5>
                         {
-                            filteredHotel.map(hotelDetails => <HotelDetails key={hotelDetails.key} hotelDetails={hotelDetails}></HotelDetails>)
+                            filteredVeh.map(vehDetails => <TransportDetails key={vehDetails.key} vehDetails={vehDetails}></TransportDetails>)
                         }
                     </div>
                     <div className="offset-md-1 col-md-7">
