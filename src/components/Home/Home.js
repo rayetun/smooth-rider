@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     const travelTransport= fakeDataTransport;
     const [transport, setPlace] = useState(travelTransport);
-
     const [content, setContent] = useState(transport[0]);
     const handletransportContent = (id) => {
         setContent(transport[id]);

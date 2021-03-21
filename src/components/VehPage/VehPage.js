@@ -7,11 +7,11 @@ import TransportDetails from '../TransportDetails/TransportDetails';
 import { UserContext } from '../../App';
 import GoogleMap from '../GoogleMap/GoogleMap';
 
-const HotelPage = () => {
+const VehPage = () => {
     const transports = fakeDataVeh;
-
     const { id } = useParams();
     const filteredVeh = transports.filter(transport => parseInt(transport.VId) === parseInt(id));
+
 
 
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -35,4 +35,4 @@ const HotelPage = () => {
     );
 };
 
-export default HotelPage;
+export default VehPage;

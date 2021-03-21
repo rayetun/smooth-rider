@@ -1,0 +1,32 @@
+.bookingPage-info h1{
+    font-size:70px!important;
+}
+.bookingPage-form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius:10px;
+    min-height: 70vh;
+    border: 2px solid #2A80B9;
+}
+.bookingPage-form input {
+    font-size: 14px;    
+    width: 100%;
+    font-weight: 700;
+    padding:10px;
+    border: none;
+    background-color: #e3e3e3;
+    border-radius:5px;
+}
+.bookingPage-form label {
+    font-size: 14px;
+    font-weight: 200;
+    margin: 10px 0;
+    color: #747373;
+}
+input[type=submit] {
+    background-color: #2A80B9;
+}
+.error{
+    color:red;
+    display: block;
+}

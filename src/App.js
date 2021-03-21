@@ -6,9 +6,10 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import HotelPage from './components/VehPage/VehPage';
+import VehPage from './components/VehPage/VehPage';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import BookingPage from './components/BookingPage/BookingPage';
 
 export const UserContext = createContext();
 function App() {
@@ -21,9 +22,12 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <PrivateRoute path="/login/:id">
-            <HotelPage />
-          </PrivateRoute>
+          <Route path="/bookingPage/:id">
+            <BookingPage />
+          </Route>
+          <PrivateRoute path="/vehPage/:id">
+            <VehPage />
+          </PrivateRoute> 
           <Route path="/login">
             <Login />
           </Route>

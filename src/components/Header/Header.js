@@ -17,7 +17,7 @@ const Header = () => {
                 </Navbar.Brand>
                 <Nav className="ml-auto customNav">
                     <Nav.Link href="/">News</Nav.Link>
-                    <Nav.Link href="#">Destination</Nav.Link>
+                    <Nav.Link href="/">Destination</Nav.Link>
                     <Nav.Link href="#">Blog</Nav.Link>
                     <Nav.Link href="#">Contact</Nav.Link>
                     <Nav.Link href="#">{loggedInUser.displayName}</Nav.Link>
